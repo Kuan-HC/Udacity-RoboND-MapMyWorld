@@ -28,9 +28,10 @@ In seperate terminals:
 View generated db:
 ``rtabmap-databaseViewer ~/.ros/rtabmap.db``
 
-Yes to using the database parameters  
-View -> Constraint View  
-View -> Graph View  
+* Yes to using the database parameters  
+* View -> Constraint View  
+* View -> Graph View  
+  
 Generated db filed was uploaded to [Google Drive](https://drive.google.com/file/d/13_yOIGWSuUqKr1J1IbemEl1dZ3Xq-hFd/view?usp=sharing).
 
 <img src="DB_Viewer.jpg"/>
