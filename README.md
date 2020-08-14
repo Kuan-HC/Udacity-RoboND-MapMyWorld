@@ -21,5 +21,5 @@ In seperate terminals:
 ``roslaunch my_robot world.launch``
 
 ### Launch Rtabmap node:
-``roslaunch my_robot mapping.launch``
+``roslaunch my_robot mapping.launch``  
 ``db`` file fill be located in the ~Udacity-RoboND-Map-My-World/src/my_robot/map
