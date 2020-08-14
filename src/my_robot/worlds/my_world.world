@@ -1381,10 +1381,10 @@
       <pose frame=''>4.32975 -0.52816 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>3549 716000000</sim_time>
-      <real_time>91 487054913</real_time>
-      <wall_time>1597343882 934754648</wall_time>
-      <iterations>91110</iterations>
+      <sim_time>3580 487000000</sim_time>
+      <real_time>30 921441798</real_time>
+      <wall_time>1597402158 358796004</wall_time>
+      <iterations>30771</iterations>
       <model name='Speed limit'>
         <pose frame=''>6.11756 4.76488 -1.2 0 -0 3.14</pose>
         <scale>1 1 1</scale>
@@ -1481,8 +1481,8 @@
         <link name='link'>
           <pose frame=''>7.77697 -0.072818 0.211819 3.14159 1.57079 3.14159</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0 0 0 0 -0 0</acceleration>
-          <wrench>-0 0 0 0 -0 0</wrench>
+          <acceleration>-0 -0 0 -0 -0 -0</acceleration>
+          <wrench>-0 -0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='cardboard_box_0'>
@@ -1491,18 +1491,8 @@
         <link name='link'>
           <pose frame=''>-5.36639 0.903078 0.149 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0 -1.9e-05 0 0.000128 -2e-06 0</acceleration>
-          <wrench>-1e-06 -3.8e-05 1e-06 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='coke_can'>
-        <pose frame=''>-1.29472 -0.885802 -0.00281 -0.064302 -0.000244 -0.000581</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-1.29472 -0.885802 -0.00281 -0.064302 -0.000244 -0.000581</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-4e-06 -4e-06 -1e-06 6.4e-05 -6.3e-05 -6e-06</acceleration>
-          <wrench>-1e-06 -1e-06 -0 0 -0 0</wrench>
+          <acceleration>0 1.9e-05 -0 -0.000128 2e-06 0</acceleration>
+          <wrench>1e-06 3.8e-05 -1e-06 0 -0 0</wrench>
         </link>
       </model>
       <model name='control_console'>
@@ -1531,8 +1521,8 @@
         <link name='link'>
           <pose frame=''>1.75157 0.698295 0.000566 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0 -0 -0 0 -0 0</acceleration>
-          <wrench>-0 -0 -0 0 -0 0</wrench>
+          <acceleration>0 -0 -0 0 -0 0</acceleration>
+          <wrench>0 -0 -0 0 -0 0</wrench>
         </link>
       </model>
       <model name='grey_wall'>
@@ -3061,63 +3051,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>6.11756 4.76488 0 0 -0 0</pose>
-    </model>
-    <model name='coke_can'>
-      <link name='link'>
-        <inertial>
-          <pose frame=''>0 0 0.06 0 -0 0</pose>
-          <mass>0.39</mass>
-          <inertia>
-            <ixx>0.00055575</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.00055575</iyy>
-            <iyz>0</iyz>
-            <izz>0.0001755</izz>
-          </inertia>
-        </inertial>
-        <collision name='collision'>
-          <pose frame=''>0.003937 0.004724 -0.18 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://coke_can/meshes/coke_can.dae</uri>
-            </mesh>
-          </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <contact>
-              <ode>
-                <kp>1e+07</kp>
-                <kd>1</kd>
-                <min_depth>0.001</min_depth>
-                <max_vel>0.1</max_vel>
-              </ode>
-            </contact>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='visual'>
-          <pose frame=''>0.003937 0.004724 -0.18 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://coke_can/meshes/coke_can.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-1.29472 -0.88564 0 0 -0 0</pose>
     </model>
     <model name='control_console'>
       <static>1</static>

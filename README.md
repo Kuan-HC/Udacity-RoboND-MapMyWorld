@@ -1,5 +1,5 @@
 # ROSND Map My World
-<img src="MCL2.gif"/>
+<img src="RTAB_map.gif"/>
 
 The project was developed on Ubuntu 18.04 LTS with ROS Melodic, Gazebo and catkin installed.
 
@@ -18,8 +18,20 @@ In seperate terminals:
 2. source devel/setup.bash
  
 ### Launch Gazebo world, teleop and Rviz:
-``roslaunch my_robot world.launch``
+``roslaunch my_robot teleop.launch``
 
 ### Launch Rtabmap node:
 ``roslaunch my_robot mapping.launch``  
-``db`` file fill be located in the ~Udacity-RoboND-Map-My-World/src/my_robot/map
+``db``  fill will be located in the ~Udacity-RoboND-Map-My-World/src/my_robot/map
+
+### Data Base Viewer:  
+View generated db:
+``rtabmap-databaseViewer ~/.ros/rtabmap.db``
+
+Yes to using the database parameters  
+View -> Constraint View  
+View -> Graph View  
+Generated db filed was uploaded to [Google Drive](https://drive.google.com/file/d/13_yOIGWSuUqKr1J1IbemEl1dZ3Xq-hFd/view?usp=sharing).
+
+<img src="DB_Viewer.jpg"/>
+
