@@ -17,7 +17,10 @@ In seperate terminals:
 1. cd /home/workspace/Udacity-RoboND-Where-AM-I/
 2. source devel/setup.bash
  
-### Launch Gazebo world, teleop and Rviz:
+### Launch Gazebo world:
+``roslaunch my_robot world.launch``
+
+### Launch  teleop :  
 ``roslaunch my_robot teleop.launch``
 
 ### Launch Rtabmap node:
@@ -35,4 +38,8 @@ View generated db:
 Generated db filed was uploaded to [Google Drive](https://drive.google.com/file/d/13_yOIGWSuUqKr1J1IbemEl1dZ3Xq-hFd/view?usp=sharing).
 
 <img src="DB_Viewer.jpg" width = "800"/>
+
+## Option Localization  
+``roslaunch my_robot localization.launch``    
+rviz configuration: localization.rviz
 
