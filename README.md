@@ -1,5 +1,5 @@
 # ROSND Map My World
-<img src="RTAB_map.gif"/>
+<img src="RTAB_map.gif" width = "800"/>
 
 The project was developed on Ubuntu 18.04 LTS with ROS Melodic, Gazebo and catkin installed.
 
@@ -34,5 +34,5 @@ View generated db:
   
 Generated db filed was uploaded to [Google Drive](https://drive.google.com/file/d/13_yOIGWSuUqKr1J1IbemEl1dZ3Xq-hFd/view?usp=sharing).
 
-<img src="DB_Viewer.jpg"/>
+<img src="DB_Viewer.jpg" width = "800"/>
 
